@@ -7,12 +7,12 @@ export default function Home() {
 
                 {/* Hauptüberschrift: Groß, Fett, Petrol */}
                 <h1 className="text-7xl sm:text-9xl font-black text-teal-800 tracking-tighter mb-4">
-                    teXtor
+                    project teXtor
                 </h1>
 
                 {/* Untertitel / Kontext */}
                 <p className="text-teal-600 font-medium tracking-widest uppercase text-sm mb-16">
-                    anthropomorphismus - human technology interaction - ethic
+                    Oliver-Weber.at
                 </p>
 
                 {/* Visuelle Trennung (kleines Detail) */}
