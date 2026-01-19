@@ -7,7 +7,7 @@ export default function Home() {
 
                 {/* Hauptüberschrift: Groß, Fett, Petrol */}
                 <h1 className="text-7xl sm:text-9xl font-black text-teal-800 tracking-tighter mb-4">
-                    TeXtor
+                    teXtor
                 </h1>
 
                 {/* Untertitel / Kontext */}
@@ -25,7 +25,7 @@ export default function Home() {
                     </h2>
 
                     <p className="text-slate-500 text-sm">
-                        Digital Business and Software Engineering - Projekt JG 2023
+                        Digital Business and Software Engineering - Projekt DiBSE BSc JG 2023 MCI
                     </p>
 
                     {/* Ort mit kleinem Punkt-Akzent */}
