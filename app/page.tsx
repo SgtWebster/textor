@@ -1,3 +1,5 @@
+//page.tsx
+
 export default function Home() {
     return (
         <main className="min-h-screen flex flex-col items-center justify-center bg-white p-6 font-sans">
@@ -6,13 +8,13 @@ export default function Home() {
             <div className="max-w-xl w-full text-center animate-in fade-in duration-700">
 
                 {/* Hauptüberschrift: Groß, Fett, Petrol */}
-                <h1 className="text-7xl sm:text-9xl font-black text-teal-800 tracking-tighter mb-4">
-                    project teXtor
+                <h1 className="text-4xl sm:text-4xl font-black text-teal-800 tracking-tighter mb-4">
+                    Oliver 'Ulrich' Weber
                 </h1>
 
                 {/* Untertitel / Kontext */}
                 <p className="text-teal-600 font-medium tracking-widest uppercase text-sm mb-16">
-                    Oliver-Weber.at
+                    work in progress
                 </p>
 
                 {/* Visuelle Trennung (kleines Detail) */}
@@ -21,7 +23,7 @@ export default function Home() {
                 {/* Personen-Details */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-bold text-slate-900">
-                        Oliver Ulrich Weber
+                        ...coming soon...
                     </h2>
 
                     <p className="text-slate-500 text-sm">
@@ -35,8 +37,8 @@ export default function Home() {
                     </div>
                     <div className="text-sm text-slate-600">
                         <strong>@ </strong>
-                        <a href="mailto:o.weber@mci4me.at" className="text-teal-600 hover:underline">
-                            o.weber@mci4me.at
+                        <a href="mailto:oliver-weber@oliver-weber.at" className="text-teal-600 hover:underline">
+                            oliver-weber@oliver-weber.at
                         </a>
                     </div>
                 </div>
