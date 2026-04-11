@@ -5,11 +5,10 @@ import { useRouter } from "next/navigation";
 
 // Typisierung der gesammelten Daten
 type ExperimentData = {
-    scenario1Time?: number;
+    scenario1TimeMs?: number; // <-- HIER das "Ms" hinzufügen!
     scenario1Decision?: string;
     routinePolite?: boolean;
     routineTimeMs?: number;
-    // Platz für weitere Daten aus Szenario 2, 3 und dem MDMT-Fragebogen
 };
 
 // Der State unseres gesamten Experiments
