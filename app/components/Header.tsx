@@ -9,8 +9,6 @@ type NavItem = { href: string; label: string };
 
 const NAV: NavItem[] = [
     { href: "/", label: "Home" },
-    // { href: "/projekte", label: "Projekte" },
-    // { href: "/thesis", label: "Thesis" },
     { href: "/about", label: "Über mich" },
 ];
 
@@ -41,7 +39,7 @@ export default function Header() {
                     className="group inline-flex items-center gap-2 rounded-xl px-2 py-1.5 transition hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-white/20"
                 >
           <span className="text-lg font-black tracking-tight text-white">
-            ulrich<span className="text-teal-300">.</span>
+            oliver <span className="text-teal-300">ulrich</span> weber
           </span>
                     <span className="hidden text-xs text-slate-300/80 sm:inline">
 

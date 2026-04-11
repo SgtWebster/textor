@@ -10,12 +10,12 @@ export default function ImpressumPage() {
         <div>
             {/* Header */}
             <section className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm sm:p-10">
-                <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600">
-                    <span className="h-2 w-2 rounded-full bg-teal-500" />
-                    Impressum
-                    <span className="text-slate-300">•</span>
-                    privat
-                </div>
+                {/*<div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600">*/}
+                {/*    <span className="h-2 w-2 rounded-full bg-teal-500" />*/}
+                {/*    Impressum*/}
+                {/*    <span className="text-slate-300">•</span>*/}
+                {/*    privat*/}
+                {/*</div>*/}
 
                 <h1 className="mt-4 text-balance text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
                     Impressum
@@ -36,7 +36,7 @@ export default function ImpressumPage() {
                     <dl className="mt-5 space-y-4 text-sm">
                         <div>
                             <dt className="text-xs font-semibold text-slate-500">Name</dt>
-                            <dd className="mt-1 text-slate-900">Oliver Ulrich Weber</dd>
+                            <dd className="mt-1 text-slate-900">Oliver "Ulrich" Weber</dd>
                         </div>
 
                         <div>
