@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# experiment research data (stored locally / in /tmp at runtime)
+/data/experiment/
