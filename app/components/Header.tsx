@@ -10,6 +10,7 @@ type NavItem = { href: string; label: string };
 const NAV: NavItem[] = [
     { href: "/", label: "Home" },
     { href: "/about", label: "Über mich" },
+    { href: "/experiment", label: "Studie" },
 ];
 
 function isActive(pathname: string, href: string) {
