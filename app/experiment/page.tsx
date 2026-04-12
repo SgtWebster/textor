@@ -64,34 +64,45 @@ export default function ExperimentIntroPage() {
                         Willkommen zum <span className="text-teal-300">Entscheidungsexperiment</span>
                     </h1>
                     <p className="text-slate-400 text-lg">
-                        Vielen Dank für Ihr Interesse an der Teilnahme. Diese Studie findet im Rahmen einer Bachelorarbeit im Studiengang "Digital Business & Software Engineering" am MCI Innsbruck statt.
+                        Vielen Dank für Ihr Interesse an der Teilnahme.
                     </p>
+                    <p className="text-slate-400 text-lg">
+                        Diese Studie findet im Rahmen einer Bachelorarbeit im Studiengang "Digital Business & Software Engineering" am MCI Innsbruck statt.
+                    </p>
+                    <div className="mt-4 flex flex-wrap gap-5 text-xs font-semibold text-slate-400 justify-center items-center">
+                        <span>▶️ 3 interaktive Szenarien</span>
+                        <span>⏱ ca. 10 Minuten</span>
+                        <span>🔒 Anonym & freiwillig</span>
+                        <span>↩ Jederzeit abbrechbar</span>
+                    </div>
                 </div>
 
                 {/* Info & Ablauf */}
                 <div className="space-y-6 text-slate-300 mb-10">
+
                     <section>
                         <h2 className="text-xl font-semibold text-white mb-2">Worum geht es?</h2>
                         <p className="leading-relaxed">
-                            In diesem Experiment übernehmen Sie die Rolle einer Sicherheitsfachkraft in einer komplexen Industrieanlage. Sie werden mit simulierten Routineaufgaben und kritischen Entscheidungssituationen konfrontiert. Dabei steht Ihnen ein KI-Assistenzsystem zur Seite.
+                            In diesem Experiment werden Sie in verschiedenen Szenarien mit kritischen Entscheidungssituationen konfrontiert. Sie erhalten dabei jeweils Unterstützung von einem KI-System. Dabei wird der Einfluss der KI auf Ihre Entscheidungen gemessen. Die Szenarien sind dabei völlig fiktiv.
                         </p>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold text-white mb-2">Ablauf & Dauer</h2>
+
                         <ul className="list-disc list-inside space-y-1 ml-1">
-                            <li>Bearbeitung von interaktiven Szenarien (inkl. Zeitmessung)</li>
+                            <li>Bearbeitung von verschiedenen 3 interaktiven Szenarien</li>
                             <li>Ausfüllen eines kurzen Fragebogens im Anschluss</li>
-                            <li>Gesamtdauer: ca. 5-8 Minuten</li>
+                            <li>Gesamtdauer: etwa 10 bis 12 Minuten</li>
                         </ul>
                     </section>
 
                     <section>
                         <h2 className="text-xl font-semibold text-white mb-2">Datenschutz & Freiwilligkeit</h2>
                         <p className="leading-relaxed">
-                            Ihre Teilnahme ist komplett freiwillig und kann jederzeit ohne Angabe von Gründen abgebrochen werden.
+                            Ihre Teilnahme ist komplett freiwillig und kann <span className="text-teal-300">jederzeit</span> ohne Angabe von Gründen abgebrochen werden.
                             <strong> Sämtliche erhobenen Daten (Entscheidungen, Reaktionszeiten, Fragebogendaten) werden vollständig anonymisiert gespeichert</strong> und lassen keinerlei Rückschlüsse auf Ihre Person zu.
-                            Am Ende des Experiments haben Sie die Möglichkeit, <em>freiwillig</em> an einem Gewinnspiel teilzunehmen. Diese Kontaktdaten werden strikt von den wissenschaftlichen Daten getrennt gespeichert.
+                            Am Ende des Experiments haben Sie als kleines Dankefschön für Ihre Zeit die Möglichkeit, <em>freiwillig</em> an einem Gewinnspiel teilzunehmen. Diese Kontaktdaten werden selbstverständlich strikt von den wissenschaftlichen Daten getrennt gespeichert.
                         </p>
                     </section>
                 </div>
@@ -108,7 +119,7 @@ export default function ExperimentIntroPage() {
                             />
                         </div>
                         <div className="text-sm text-slate-300 group-hover:text-slate-200 transition-colors">
-                            <strong>Einverständniserklärung:</strong> Ich bin über 18 Jahre alt. Ich habe die obigen Informationen gelesen und verstanden. Ich erkläre mich freiwillig bereit, an dieser Studie teilzunehmen und stimme der anonymen Verarbeitung meiner Daten für wissenschaftliche Zwecke zu.
+                            <strong>Einverständniserklärung:</strong> Ich bin mindestens 18 Jahre alt. Ich habe die obigen Informationen gelesen und verstanden. Ich erkläre mich freiwillig bereit, an dieser Studie teilzunehmen und stimme der anonymen Verarbeitung meiner Daten für wissenschaftliche Zwecke zu.
                         </div>
                     </label>
                 </div>
