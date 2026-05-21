@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { useExperiment } from "./ExperimentContext"; // Korrigierter Import!
+import { useExperiment } from "./ExperimentContext";
 
 export default function ExperimentIntroPage() {
     const [hasConsented, setHasConsented] = useState(false);
@@ -100,7 +100,7 @@ export default function ExperimentIntroPage() {
                     <section>
                         <h2 className="text-xl font-semibold text-white mb-2">Datenschutz & Freiwilligkeit</h2>
                         <p className="leading-relaxed">
-                            Ihre Teilnahme ist komplett freiwillig und kann <span className="text-teal-300">jederzeit</span> ohne Angabe von Gründen abgebrochen werden.
+                            Ihre Teilnahme ist komplett freiwillig und kann <strong className="text-teal-300">jederzeit</strong> ohne Angabe von Gründen abgebrochen werden.
                             <strong> Sämtliche erhobenen Daten (Entscheidungen, Reaktionszeiten, Fragebogendaten) werden vollständig anonymisiert gespeichert</strong> und lassen keinerlei Rückschlüsse auf Ihre Person zu.
                             Am Ende des Experiments haben Sie als kleines Dankefschön für Ihre Zeit die Möglichkeit, <em>freiwillig</em> an einem Gewinnspiel teilzunehmen. Diese Kontaktdaten werden selbstverständlich strikt von den wissenschaftlichen Daten getrennt gespeichert.
                         </p>
